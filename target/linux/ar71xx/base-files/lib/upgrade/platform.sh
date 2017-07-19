@@ -200,6 +200,14 @@ platform_check_image() {
 	[ "$#" -gt 1 ] && return 1
 
 	case "$board" in
+	ip04315)
+		[ "$magic_long" != "27051956" ] && {
+			echo "Invalid image type."
+			return 1
+		}
+
+		return 0
+		;;
 	airgatewaypro|\
 	airgateway|\
 	airrouter|\

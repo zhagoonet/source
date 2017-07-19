@@ -196,6 +196,7 @@ ar71xx_setup_interfaces()
 		;;
 	ap136-010|\
 	ap147-010|\
+	ip04315|\
 	nbg6616|\
 	nbg6716)
 		ucidef_set_interfaces_lan_wan "eth0.1" "eth1.2"

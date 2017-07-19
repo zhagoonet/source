@@ -109,6 +109,12 @@ define LegacyDevice/AP147_010
 endef
 LEGACY_DEVICES += AP147_010
 
+define LegacyDevice/IP04315_16M
+  DEVICE_TITLE := TOTOLINK IP04315 reference board
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-storage
+endef
+LEGACY_DEVICES += IP04315_16M
+
 define LegacyDevice/AP152_16M
   DEVICE_TITLE := Qualcomm Atheros AP152 reference board (16MB flash)
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-storage

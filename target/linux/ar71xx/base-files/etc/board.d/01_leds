@@ -91,6 +91,14 @@ ap147-010)
 	ucidef_set_led_switch "lan4" "LAN4" "ap147:green:lan4" "switch0" "0x02"
 	ucidef_set_led_wlan "wlan2g" "WLAN 2.4 GHz" "ap147:green:wlan-2g" "phy0tpt"
 	;;
+ip04315)
+	ucidef_set_led_netdev "wan" "WAN" "ip04315:green:wan" "eth1"
+	ucidef_set_led_switch "lan1" "LAN1" "ip04315:green:lan1" "switch0" "0x10"
+	ucidef_set_led_switch "lan2" "LAN2" "ip04315:green:lan2" "switch0" "0x08"
+	ucidef_set_led_switch "lan3" "LAN3" "ip04315:green:lan3" "switch0" "0x04"
+	ucidef_set_led_switch "lan4" "LAN4" "ip04315:green:lan4" "switch0" "0x02"
+	ucidef_set_led_wlan "wlan2g" "WLAN 2.4 GHz" "ip04315:green:wlan-2g" "phy0tpt"
+	;;
 ap90q|\
 cpe505n|\
 cpe830|\

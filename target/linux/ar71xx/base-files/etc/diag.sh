@@ -48,6 +48,9 @@ get_status_led() {
 	ap147-010)
 		status_led="ap147:green:status"
 		;;
+	ip04315)
+		status_led="ip04315:green:status"
+		;;
 	ap135-020)
 		status_led="ap135:green:status"
 		;;

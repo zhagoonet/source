@@ -52,6 +52,7 @@ obj-$(CONFIG_ATH79_MACH_AP132)			+= mach-ap132.o
 obj-$(CONFIG_ATH79_MACH_AP136)			+= mach-ap136.o
 obj-$(CONFIG_ATH79_MACH_AP143)			+= mach-ap143.o
 obj-$(CONFIG_ATH79_MACH_AP147)			+= mach-ap147.o
+obj-$(CONFIG_ATH79_MACH_IP04315)		+= mach-ip04315.o
 obj-$(CONFIG_ATH79_MACH_AP152)			+= mach-ap152.o
 obj-$(CONFIG_ATH79_MACH_AP531B0)		+= mach-ap531b0.o
 obj-$(CONFIG_ATH79_MACH_AP90Q)			+= mach-ap90q.o
