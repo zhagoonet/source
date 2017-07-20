@@ -40,10 +40,7 @@
 #define AP147_KEYS_POLL_INTERVAL	20	/* msecs */
 #define AP147_KEYS_DEBOUNCE_INTERVAL	(3 * AP147_KEYS_POLL_INTERVAL)
 
-#define AP147_MAC0_OFFSET	0x1002
 #define AP_147_ART_MAC_OFFSET   0x1002
-#define AP147_MAC0_OFFSET		0
-#define AP147_MAC1_OFFSET		6
 #define AP147_WMAC_CALDATA_OFFSET	0x1000
 
 
@@ -91,7 +88,7 @@ static struct gpio_keys_button ap147_gpio_keys[] __initdata = {
 	{
 		.desc		= "reset",
 		.type		= EV_KEY,
-		.code		= KEY_RESET_BUTTON,
+		.code		= KEY_RESTART,
 		.debounce_interval = AP147_KEYS_DEBOUNCE_INTERVAL,
 		.gpio		= AP147_GPIO_BTN_RST,
 		.active_low	= 1,
