@@ -523,3 +523,10 @@ define Device/zte-q7
   DEVICE_TITLE := ZTE Q7
 endef
 TARGET_DEVICES += zte-q7
+
+define Device/a750rh
+  DTS := A750RH
+  DEVICE_TITLE := A750RH
+  DEVICE_PACKAGES := kmod-mt76
+endef
+TARGET_DEVICES += a750rh

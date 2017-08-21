@@ -428,6 +428,9 @@ zbt-wr8305rt)
 zte-q7)
 	set_wifi_led "$board:blue:status"
 	;;
+a750rh)
+	set_wifi_led "$board:blue:status"
+	;;
 youku-yk1)
 	ucidef_set_led_default "power" "power" "$board:blue:power" "1"
 	set_wifi_led "$board:blue:air"
